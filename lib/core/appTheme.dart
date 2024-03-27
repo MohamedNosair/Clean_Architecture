@@ -5,9 +5,18 @@ const secondaryColor = Color(0xff51eec2);
 
 final appTheme = ThemeData(
     appBarTheme: const AppBarTheme(
-        backgroundColor: primaryColor,
-        centerTitle: true,
-        titleTextStyle: TextStyle(color: Colors.white)),
+      backgroundColor: primaryColor,
+      centerTitle: true,
+      actionsIconTheme: IconThemeData(
+        color: Colors.white,
+      ),
+      iconTheme: IconThemeData(
+        color: Colors.white,
+      ),
+      titleTextStyle: TextStyle(
+        color: Colors.white,
+      ),
+    ),
     brightness: Brightness.light,
     primaryColor: primaryColor,
     colorScheme: const ColorScheme.light(
