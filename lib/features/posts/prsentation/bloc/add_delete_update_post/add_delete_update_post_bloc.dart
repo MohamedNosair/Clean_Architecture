@@ -9,7 +9,9 @@ import 'package:ui_design/features/posts/domain/entities/post_entities.dart';
 import 'package:ui_design/features/posts/domain/use_cases/add_post.dart';
 import 'package:ui_design/features/posts/domain/use_cases/delete_post.dart';
 import 'package:ui_design/features/posts/domain/use_cases/update_post.dart';
+
 import '../../../../../core/strings/failure.dart';
+
 part 'add_delete_update_post_event.dart';
 part 'add_delete_update_post_state.dart';
 

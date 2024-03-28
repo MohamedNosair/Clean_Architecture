@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:ui_design/features/posts/domain/repositories/posts_repo.dart';
+import '../repositories/posts_repo.dart';
 
 import '../../../../core/errors/failure.dart';
 import '../entities/post_entities.dart';

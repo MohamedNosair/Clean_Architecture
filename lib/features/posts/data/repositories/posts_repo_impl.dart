@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:ui_design/core/errors/exceptions.dart';
-import 'package:ui_design/core/errors/failure.dart';
-import 'package:ui_design/features/posts/data/data_sources/local_data_source.dart';
-import 'package:ui_design/features/posts/data/data_sources/remote_data_source.dart';
-import 'package:ui_design/features/posts/data/models/post_model.dart';
-import 'package:ui_design/features/posts/domain/entities/post_entities.dart';
-import 'package:ui_design/features/posts/domain/repositories/posts_repo.dart';
+import '../../../../core/errors/exceptions.dart';
+import '../../../../core/errors/failure.dart';
+import '../data_sources/local_data_source.dart';
+import '../data_sources/remote_data_source.dart';
+import '../models/post_model.dart';
+import '../../domain/entities/post_entities.dart';
+import '../../domain/repositories/posts_repo.dart';
 
 import '../../../../core/network/network_inf.dart';
 

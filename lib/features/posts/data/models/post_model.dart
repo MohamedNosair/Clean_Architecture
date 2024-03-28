@@ -1,4 +1,4 @@
-import 'package:ui_design/features/posts/domain/entities/post_entities.dart';
+import '../../domain/entities/post_entities.dart';
 
 class PostModel extends Post {
   const PostModel({super.id, required super.title, required super.body});

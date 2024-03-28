@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ui_design/features/posts/prsentation/bloc/posts/posts_bloc.dart';
-import 'package:ui_design/features/posts/prsentation/page/post_add_update_page.dart';
-import 'package:ui_design/features/posts/prsentation/widgets/message_display_widget.dart';
-import 'package:ui_design/features/posts/prsentation/widgets/post_list_widget.dart';
+import '../bloc/posts/posts_bloc.dart';
+import 'post_add_update_page.dart';
+import '../widgets/message_display_widget.dart';
+import '../widgets/post_list_widget.dart';
 
 class PostsPage extends StatelessWidget {
   const PostsPage({super.key});

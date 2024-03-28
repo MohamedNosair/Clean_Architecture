@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:meta/meta.dart';
-import 'package:ui_design/core/errors/failure.dart';
+import '../../../../../core/errors/failure.dart';
 import '../../../../../core/strings/failure.dart';
 import '../../../domain/entities/post_entities.dart';
 import '../../../domain/use_cases/get_all_posts.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ui_design/core/until/snack_bar.dart';
-import 'package:ui_design/features/posts/domain/entities/post_entities.dart';
-import 'package:ui_design/features/posts/prsentation/bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
-import 'package:ui_design/features/posts/prsentation/page/post_add_update_page.dart';
-import 'package:ui_design/features/posts/prsentation/page/posts_page.dart';
-import 'package:ui_design/features/posts/prsentation/widgets/post_detail_page/delete_dialog_widget.dart';
+import '../../../../../core/until/snack_bar.dart';
+import '../../../domain/entities/post_entities.dart';
+import '../../bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
+import '../../page/post_add_update_page.dart';
+import '../../page/posts_page.dart';
+import 'delete_dialog_widget.dart';
 
 class PostDetailWidget extends StatelessWidget {
   final Post post;
