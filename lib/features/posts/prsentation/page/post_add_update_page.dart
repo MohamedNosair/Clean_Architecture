@@ -5,6 +5,7 @@ import 'package:ui_design/core/until/snack_bar.dart';
 import 'package:ui_design/features/posts/domain/entities/post_entities.dart';
 import 'package:ui_design/features/posts/prsentation/bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
 import 'package:ui_design/features/posts/prsentation/page/posts_page.dart';
+import 'package:ui_design/features/posts/prsentation/widgets/post_add_update_page/form_widget.dart';
 
 class PostAddUpdatePage extends StatelessWidget {
   final Post? post;
@@ -37,7 +38,11 @@ class PostAddUpdatePage extends StatelessWidget {
         }
       },
       builder: (context, state) {
-        return Container();
+        if (state is LoadingAddDeleteUpdatePostState) {
+          const Center(child: CircularProgressIndicator());
+        }
+        return FormWidget(
+            isUpdatePost: isUpdatePost, post: isUpdatePost ? post : null);
       },
     );
   }
